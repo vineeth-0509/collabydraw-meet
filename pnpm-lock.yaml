@@ -180,6 +180,9 @@ importers:
 
   apps/ws:
     dependencies:
+      '@prisma/client':
+        specifier: 6.5.0
+        version: 6.5.0(prisma@6.5.0(typescript@5.7.3))(typescript@5.7.3)
       '@types/cookie':
         specifier: ^1.0.0
         version: 1.0.0
